@@ -1,0 +1,9 @@
+list:
+- account: .4viq.wam
+  transfer_wood: 0
+  transfer_food: 1
+  transfer_gold: 1
+- account: 4lrzu.wam
+  transfer_wood: 0
+  transfer_food: 1
+  transfer_gold: 1
