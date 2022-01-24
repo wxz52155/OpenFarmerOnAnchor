@@ -234,7 +234,7 @@ class Farmer:
         if success:
             self.log.info("transact ok, transaction_id: [{0}]".format(result["transaction_id"]))
             self.log.debug("transact result: {0}".format(result))
-            time.sleep(5)
+            time.sleep(1)
             return result
         else:
             if "is greater than the maximum billable" in result:
